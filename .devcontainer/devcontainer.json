@@ -21,5 +21,7 @@
       ]
     }
   },
-  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+
+  // Command to run after the container is created
+  "postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
 }
